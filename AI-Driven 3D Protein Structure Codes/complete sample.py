@@ -488,7 +488,7 @@ class EnhancedAlphaFold(nn.Module):
 # উদাহরণ ব্যবহার ও ট্রেনিং সেটআপ
 def example_usage():
     # হাইপারপ্যারামিটার (ডেমো)
-    batch_size = 4
+    batch_size = 32
     seq_len = 64
     num_amino_acids = 20
 
@@ -548,4 +548,5 @@ def example_usage():
     print(f"Main loss: {main_loss.item()}, Total loss: {total_loss.item()}")
 
 if __name__ == "__main__":
+
     example_usage()
